@@ -1,0 +1,246 @@
+body {
+  height: auto;      /* これで高さ制限を解除 */
+  min-height: 100vh; /* 最低限画面いっぱい */
+  display: block;    /* flexじゃなく通常のブロック表示 */
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+
+
+.ind{
+max-width: 1000px;   
+margin: auto;
+margin-top: 80px;
+
+}
+
+.p {
+    position: relative;
+    height: auto; /* 画面全体の高さ */
+    display: flex;
+    justify-content: center; /* 横方向の中央 */
+    align-items: center;     /* 縦方向の中央 */
+    flex-direction: column;  /* 縦に並べる（画像→文字） */
+    text-align: center;
+  }
+  
+  .p img {
+    width: 200px;
+  }
+  
+  .p .text {
+    margin-top: 10px;
+  }
+
+
+
+.menu {
+  position: fixed;       /* 右上に固定表示 */
+  top: 0;
+  right: 0;
+  display: flex;         /* 横並びにする */
+  gap: 50px;             /* リンクの間隔 */
+  padding: 10px 20px;
+  z-index: 1000;         /* 他の要素より前面に */
+  background: none;      /* 任意で背景色 */
+}
+
+.menu a {
+  padding: 12px 24px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+  background: none;
+}
+.menu a:hover {
+    background: none;
+}
+
+
+
+
+
+/*連絡*/
+body {
+  margin: 0;
+  padding: 40px 40px;
+  background-color: #f9f9f9;
+  font-family: 'Helvetica Neue', sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+
+
+.contact-us {
+  width: 500px;
+  height: 750px;
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+
+.input {
+  width: 100%;
+  font-size: 18px;
+  padding: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+
+textarea.input.message {
+  height: 200px;
+  resize: vertical;
+}
+
+
+.btn {
+  font-size: 18px;
+  padding: 16px;
+  background-color: #b6cf96;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ebe2bb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*リンク系*/
+/* SNSメニュー全体を右上に固定 */
+.social-links {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 30px;
+  z-index: 999;
+}
+
+.social-links a {
+  color: #333;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+  background-color: #f0f0f0;
+
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* メニューバー */
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  gap: 5px;
+  padding: 20px;
+  background: none;
+  z-index: 100;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #444;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+  background: #e7f1cb;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.song-list {
+  display: flex;
+  flex-direction: column; /* 縦に並べる */
+  align-items: center;    /* 横中央揃え */
+  gap: 60px;
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.song {
+
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative; /* 基本はrelative*/
+}
+
+
+.song img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+
+
